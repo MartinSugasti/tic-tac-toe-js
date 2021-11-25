@@ -1,0 +1,18 @@
+.container {
+  width: 450px;
+}
+
+[class*="col-"] {
+  height: 150px;
+  width: 150px;
+}
+
+.row {
+  width: 100%;
+  display: table;
+}
+
+.row .col-4 {
+  display: table-cell;
+  vertical-align: middle;
+}
